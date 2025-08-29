@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>List Lagu Favorit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>LIST LAGU FAVORIT</h1>
+  <form id="formLagu">
+    <input type="text" id="judul" placeholder="Judul Lagu">
+    <input type="text" id="penyanyi" placeholder="Penyanyi">
+    <select id="genre">
+      <option value="">Pilih Genre</option>
+      <option>Pop</option>
+      <option>Rock</option>
+      <option>Jazz</option>
+      <option>Indie</option>
+      <option>Dangdut</option>
+      <option>Metal</option>
+    </select>
+    <button type="submit">Tambah</button>
+  </form>
+
+  <div id="daftarLagu"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
